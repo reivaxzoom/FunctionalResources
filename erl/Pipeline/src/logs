@@ -1,0 +1,142 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Logs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Eshell V6.4
+(Pipeline@xavierpc)1> {LPid, Bad, Good} =tw2:setup().
+{[<0.65.0>,<0.66.0>,<0.67.0>,<0.68.0>,<0.69.0>,<0.70.0>,
+  <0.71.0>,<0.72.0>,<0.73.0>,<0.74.0>,<0.75.0>,<0.76.0>,
+  <0.77.0>,<0.78.0>,<0.79.0>,<0.80.0>,<0.81.0>,<0.82.0>,
+  <0.83.0>,<0.84.0>],
+ ["bad","garbage","terrible","horrible","boring","poor",
+  "weak","nok","awful","second-rate"],
+ ["good","great","amazing","interesting","wonderful",
+  "valuable","super","excellent","admirable","awesome"]}
+(Pipeline@xavierpc)2> tw2:start(rw:readTwits(),LPid, Bad, Good).
+
+Twit ["interesting","His","performance","in","the","movie","was","amazing",
+      "and","funny"] 
+ sending <0.66.0> False Pattern "bad" Value false X 0 Y 0 
+sending <0.67.0> False Pattern "garbage" Value false X 0 Y 0 
+sending <0.68.0> False Pattern "terrible" Value false X 0 Y 0 
+sending <0.69.0> False Pattern "horrible" Value false X 0 Y 0 
+sending <0.70.0> False Pattern "boring" Value false X 0 Y 0 
+sending <0.71.0> False Pattern "poor" Value false X 0 Y 0 
+sending <0.72.0> False Pattern "weak" Value false X 0 Y 0 
+sending <0.73.0> False Pattern "nok" Value false X 0 Y 0 
+sending <0.74.0> False Pattern "awful" Value false X 0 Y 0 
+sending <0.75.0> False Pattern "second-rate" Value false X 0 Y 0 
+sending <0.76.0> True Pattern "good" Value false X 0 Y 0 
+ sending <0.77.0> True Pattern "great" Value false X 0 Y 0 
+ sending <0.78.0> True Pattern "amazing" Value true X 1 Y 0 
+sending <0.79.0> True Pattern "interesting" Value true X 2 Y 0 
+sending <0.80.0> True Pattern "wonderful" Value false X 2 Y 0 
+ sending <0.81.0> True Pattern "valuable" Value false X 2 Y 0 
+ sending <0.82.0> True Pattern "super" Value false X 2 Y 0 
+ sending <0.83.0> True Pattern "excellent" Value false X 2 Y 0 
+ sending <0.84.0> True Pattern "admirable" Value false X 2 Y 0 
+ 
+Twit ["girls","were","super","but","the","stant","assistent","was","good"] 
+ sending <0.66.0> False Pattern "bad" Value false X 0 Y 0 
+sending <0.67.0> False Pattern "garbage" Value false X 0 Y 0 
+sending <0.68.0> False Pattern "terrible" Value false X 0 Y 0 
+sending <0.69.0> False Pattern "horrible" Value false X 0 Y 0 
+sending <0.70.0> False Pattern "boring" Value false X 0 Y 0 
+sending <0.71.0> False Pattern "poor" Value false X 0 Y 0 
+sending <0.72.0> False Pattern "weak" Value false X 0 Y 0 
+sending <0.73.0> False Pattern "nok" Value false X 0 Y 0 
+sending <0.74.0> False Pattern "awful" Value false X 0 Y 0 
+sending <0.75.0> False Pattern "second-rate" Value false X 0 Y 0 
+sending <0.76.0> True Pattern "good" Value true X 1 Y 0 
+sending <0.77.0> True Pattern "great" Value false X 1 Y 0 
+ sending <0.78.0> True Pattern "amazing" Value false X 1 Y 0 
+ sending <0.79.0> True Pattern "interesting" Value false X 1 Y 0 
+ sending <0.80.0> True Pattern "wonderful" Value false X 1 Y 0 
+ sending <0.81.0> True Pattern "valuable" Value false X 1 Y 0 
+ sending <0.82.0> True Pattern "super" Value true X 2 Y 0 
+sending <0.83.0> True Pattern "excellent" Value false X 2 Y 0 
+ sending <0.84.0> True Pattern "admirable" Value false X 2 Y 0 
+ 
+Twit ["was","bad","and","horrible","with","the","poor","image","quality",
+      "even"] 
+ sending <0.66.0> False Pattern "bad" Value true X 0 Y 1 
+sending <0.67.0> False Pattern "garbage" Value false X 0 Y 1 
+sending <0.68.0> False Pattern "terrible" Value false X 0 Y 1 
+sending <0.69.0> False Pattern "horrible" Value true X 0 Y 2 
+sending <0.70.0> False Pattern "boring" Value false X 0 Y 2 
+sending <0.71.0> False Pattern "poor" Value true X 0 Y 3 
+sending <0.72.0> False Pattern "weak" Value false X 0 Y 3 
+sending <0.73.0> False Pattern "nok" Value false X 0 Y 3 
+sending <0.74.0> False Pattern "awful" Value false X 0 Y 3 
+sending <0.75.0> False Pattern "second-rate" Value false X 0 Y 3 
+sending <0.76.0> True Pattern "good" Value false X 0 Y 3 
+ sending <0.77.0> True Pattern "great" Value false X 0 Y 3 
+ sending <0.78.0> True Pattern "amazing" Value false X 0 Y 3 
+ sending <0.79.0> True Pattern "interesting" Value false X 0 Y 3 
+ sending <0.80.0> True Pattern "wonderful" Value false X 0 Y 3 
+ sending <0.81.0> True Pattern "valuable" Value false X 0 Y 3 
+ sending <0.82.0> True Pattern "super" Value false X 0 Y 3 
+ sending <0.83.0> True Pattern "excellent" Value false X 0 Y 3 
+ sending <0.84.0> True Pattern "admirable" Value false X 0 Y 3 
+ 
+Twit ["my","house","could","be","better","but","the","people","there","was",
+      "excellent"] 
+ sending <0.66.0> False Pattern "bad" Value false X 0 Y 0 
+sending <0.67.0> False Pattern "garbage" Value false X 0 Y 0 
+sending <0.68.0> False Pattern "terrible" Value false X 0 Y 0 
+sending <0.69.0> False Pattern "horrible" Value false X 0 Y 0 
+sending <0.70.0> False Pattern "boring" Value false X 0 Y 0 
+sending <0.71.0> False Pattern "poor" Value false X 0 Y 0 
+sending <0.72.0> False Pattern "weak" Value false X 0 Y 0 
+sending <0.73.0> False Pattern "nok" Value false X 0 Y 0 
+sending <0.75.0> False Pattern "second-rate" Value false X 0 Y 0 
+sending <0.74.0> False Pattern "awful" Value false X 0 Y 0 
+sending <0.76.0> True Pattern "good" Value false X 0 Y 0 
+ sending <0.77.0> True Pattern "great" Value false X 0 Y 0 
+ sending <0.78.0> True Pattern "amazing" Value false X 0 Y 0 
+ sending <0.79.0> True Pattern "interesting" Value false X 0 Y 0 
+ sending <0.80.0> True Pattern "wonderful" Value false X 0 Y 0 
+ sending <0.81.0> True Pattern "valuable" Value false X 0 Y 0 
+ sending <0.82.0> True Pattern "super" Value false X 0 Y 0 
+ sending <0.83.0> True Pattern "excellent" Value true X 1 Y 0 
+sending <0.84.0> True Pattern "admirable" Value false X 1 Y 0 
+ 
+Twit ["admirable","promotion"] 
+ sending <0.66.0> False Pattern "bad" Value false X 0 Y 0 
+sending <0.67.0> False Pattern "garbage" Value false X 0 Y 0 
+sending <0.68.0> False Pattern "terrible" Value false X 0 Y 0 
+sending <0.69.0> False Pattern "horrible" Value false X 0 Y 0 
+sending <0.70.0> False Pattern "boring" Value false X 0 Y 0 
+sending <0.71.0> False Pattern "poor" Value false X 0 Y 0 
+sending <0.72.0> False Pattern "weak" Value false X 0 Y 0 
+sending <0.73.0> False Pattern "nok" Value false X 0 Y 0 
+sending <0.74.0> False Pattern "awful" Value false X 0 Y 0 
+sending <0.75.0> False Pattern "second-rate" Value false X 0 Y 0 
+sending <0.76.0> True Pattern "good" Value false X 0 Y 0 
+ sending <0.77.0> True Pattern "great" Value false X 0 Y 0 
+ sending <0.78.0> True Pattern "amazing" Value false X 0 Y 0 
+ sending <0.79.0> True Pattern "interesting" Value false X 0 Y 0 
+ sending <0.80.0> True Pattern "wonderful" Value false X 0 Y 0 
+ sending <0.81.0> True Pattern "valuable" Value false X 0 Y 0 
+ sending <0.82.0> True Pattern "super" Value false X 0 Y 0 
+ sending <0.83.0> True Pattern "excellent" Value false X 0 Y 0 
+ sending <0.84.0> True Pattern "admirable" Value true X 1 Y 0 
+Arrive Main Pid <0.59.0>  X 2 Y 0 
+ good
+Arrive Main Pid <0.59.0>  X 2 Y 0 
+ good
+Arrive Main Pid <0.59.0>  X 0 Y 3 
+  bad
+ Arrive Main Pid <0.59.0>  X 1 Y 0 
+ good
+Arrive Main Pid <0.59.0>  X 1 Y 0 
+ good
+done
+(Pipeline@xavierpc)3> lists:nth(7, LPid) ! {["hola"],[], Bad,Good, 0, 0, self(),[],self()}.
+{["hola"],
+ [],
+ ["bad","garbage","terrible","horrible","boring","poor",
+  "weak","nok","awful","second-rate"],
+ ["good","great","amazing","interesting","wonderful",
+  "valuable","super","excellent","admirable","awesome"],
+ 0,0,<0.59.0>,[],<0.59.0>}
+(Pipeline@xavierpc)4>
